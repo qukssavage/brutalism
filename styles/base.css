@@ -14,6 +14,12 @@
     --white: #F3F3F3;
     --ff: "Fustat", sans-serif;
     --gray: #B5B5B5;
+    --bg: #1c1c1c
+}
+
+body {
+    background: var(--bg);
+    min-width: 320px
 }
 
 .container {
