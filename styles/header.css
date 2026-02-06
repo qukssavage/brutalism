@@ -102,7 +102,6 @@
   overflow: hidden;
 }
 
-
 @media screen and (max-width: 992px) {
   .header__wrap {
     flex-wrap: wrap;
@@ -124,7 +123,7 @@
     position: static;
   }
   
-  .header__warp {
+  .header__wrap {
     flex-wrap: nowrap;
     flex-direction: column;
   }
