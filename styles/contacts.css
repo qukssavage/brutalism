@@ -1,0 +1,8 @@
+.contacts {
+    margin-bottom: 140px;
+}
+
+.contacts__wrap {
+    display: flex;
+    justify-content: space-between;
+}   
