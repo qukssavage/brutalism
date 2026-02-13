@@ -70,3 +70,39 @@
   line-height: 140%;
   color: var(--gray);
 }
+
+@media screen and (max-width: 760px) {
+    .project__wrap {
+        gap: 60px;
+    }
+
+    .project__block {
+        flex-direction: column;
+        height: auto;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .project__block-right {
+        gap: 10px;
+        align-items: center;
+    }
+
+    .project__block-info {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .project__block-info {
+        gap: 10px;
+    }
+
+    .project__block-info_title {
+        font-size: 18px
+    }
+
+    .project__block-info_desc {
+        font-size: 11px;
+    }
+}
